@@ -49,7 +49,7 @@ const robot = {
         this[instructionMap[instruction]]();
         console.log(`Moved to (${instruction}):`, this.position);
       } else {
-        console.error(`Invalid instruction: (${instruction}):`)
+        console.error(`Invalid instruction: (${instruction})`)
       }
     }
   },

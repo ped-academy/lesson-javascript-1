@@ -28,4 +28,4 @@ function numericToRoman(input) {
 }
 
 console.log("Usage: > numericToRoman(402)");
-numericToRoman(402);
+console.log(numericToRoman(402));

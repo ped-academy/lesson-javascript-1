@@ -1,7 +1,7 @@
 function getPrimeFactors(input) {
   const output = [];
 
-  for (let p = 2; p <= input; p += 1) {
+  for (let p = 2; p <= input; p++) {
     while (input % p === 0) {
       input /= p;
       output.push(p);
@@ -12,4 +12,4 @@ function getPrimeFactors(input) {
 }
 
 console.log("Usage: > getPrimeFactors(60)");
-getPrimeFactors(60);
+console.log(getPrimeFactors(60));
